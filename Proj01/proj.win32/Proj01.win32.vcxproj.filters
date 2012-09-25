@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{64a038e4-3c7b-4b19-af22-b6dc63ce7d51}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{a158bb74-9f9f-4f46-b6a1-df6d669c5b6e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{cd78e0c3-d365-426d-9a56-3a4c177a7edd}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Proj01.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Default.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\crop.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\farm.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\land.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\menu2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\dog.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\hello.lua" />
+    <None Include="..\Resources\hello2.lua" />
+    <None Include="..\Resources\menu1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\background.mp3" />
+    <None Include="..\Resources\effect1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Proj01.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx_support\LuaCocos2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx_support\CCLuaEngine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx_support\Cocos2dxLuaLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx_support\tolua_fix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx_support\LuaCocos2d.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx_support\CCLuaEngine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx_support\Cocos2dxLuaLoader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx_support\tolua_fix.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
