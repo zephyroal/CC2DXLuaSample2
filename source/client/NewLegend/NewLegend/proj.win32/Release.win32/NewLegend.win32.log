@@ -1,0 +1,34 @@
+﻿Build started 2012-9-27 10:32:58.
+     1>Project "F:\Demo\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release.win32\NewLegend.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         NewLegend.win32.vcxproj -> F:\Demo\projectmonkeygit\source\client\NewLegend\Release.win32\NewLegend.win32.exe
+       PostBuildEvent:
+         copy /Y ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\*.dll F:\Demo\projectmonkeygit\source\client\NewLegend\Release.win32\
+         :VCEnd
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\glew32.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\iconv.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\libcocos2d.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\libCocosDenshion.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\libcurl.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\libtiff.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\libxml2.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\mozjs.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\pthreadVCE2.dll
+         ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\zlib1.dll
+         已复制        10 个文件。
+       FinalizeBuildStatus:
+         Deleting file "Release.win32\NewLegend.win32.unsuccessfulbuild".
+         Touching "Release.win32\NewLegend.win32.lastbuildstate".
+     1>Done Building Project "F:\Demo\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
