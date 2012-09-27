@@ -1,4 +1,7 @@
-鉴于cocos2d程序太过庞大，请自行下载并且编译。
+1:鉴于cocos2d程序太过庞大，请自行下载并且编译。
 下载地址 http://cocos2d-x.googlecode.com/files/cocos2d-2.0-x-2.0.3.zip
 解压后的文件放在thirdparty\cocos2d-2.0-x目录下
-client目录下的thridparty目录放的是客户端专用的第三方库，如果以后有和服务器公用的，会放在source下面
+
+2:client目录下的thridparty目录放的是客户端专用的第三方库，如果以后有和服务器公用的，会放在source下面
+
+3:thridparty中的libevent使用VC10编译，如果需要自己编译，可以在VC10的命令行工具中执行nmake Makefile.nmake
