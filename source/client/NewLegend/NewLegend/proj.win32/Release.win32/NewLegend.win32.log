@@ -1,17 +1,17 @@
-﻿Build started 2012-9-27 10:32:58.
-     1>Project "F:\Demo\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj" on node 2 (build target(s)).
+﻿生成启动时间为 2012/10/13 22:20:51。
+     1>项目“E:\游戏开发\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         Creating "Release.win32\NewLegend.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         正在创建“Release.win32\NewLegend.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         All outputs are up-to-date.
-         All outputs are up-to-date.
+         所有输出均为最新。
+         所有输出均为最新。
        ResourceCompile:
-         All outputs are up-to-date.
+         所有输出均为最新。
        Link:
-         All outputs are up-to-date.
-         NewLegend.win32.vcxproj -> F:\Demo\projectmonkeygit\source\client\NewLegend\Release.win32\NewLegend.win32.exe
+         所有输出均为最新。
+         NewLegend.win32.vcxproj -> E:\游戏开发\projectmonkeygit\source\client\NewLegend\Release.win32\NewLegend.win32.exe
        PostBuildEvent:
-         copy /Y ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\*.dll F:\Demo\projectmonkeygit\source\client\NewLegend\Release.win32\
+         copy /Y ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\*.dll E:\游戏开发\projectmonkeygit\source\client\NewLegend\Release.win32\
          :VCEnd
          ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\glew32.dll
          ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\iconv.dll
@@ -25,10 +25,10 @@
          ..\..\..\thirdparty\cocos2d-2.0-x\Release.win32\zlib1.dll
          已复制        10 个文件。
        FinalizeBuildStatus:
-         Deleting file "Release.win32\NewLegend.win32.unsuccessfulbuild".
-         Touching "Release.win32\NewLegend.win32.lastbuildstate".
-     1>Done Building Project "F:\Demo\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj" (build target(s)).
+         正在删除文件“Release.win32\NewLegend.win32.unsuccessfulbuild”。
+         正在对“Release.win32\NewLegend.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\游戏开发\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj”(build 个目标)的操作。
 
-Build succeeded.
+生成成功。
 
-Time Elapsed 00:00:00.71
+已用时间 00:00:00.46

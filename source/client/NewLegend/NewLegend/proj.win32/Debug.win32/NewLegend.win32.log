@@ -1,20 +1,32 @@
-﻿Build started 2012-9-27 10:33:18.
-     1>Project "F:\Demo\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj" on node 2 (build target(s)).
+﻿生成启动时间为 2012/10/13 9:57:15。
+     1>项目“E:\游戏开发\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         Creating "Debug.win32\NewLegend.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         正在创建“Debug.win32\NewLegend.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         All outputs are up-to-date.
-         All outputs are up-to-date.
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"..\..\..\thirdparty\cocos2d-2.0-x\cocos2dx\platform\win32" /I"..\..\..\thirdparty\cocos2d-2.0-x\cocos2dx" /I"..\..\..\thirdparty\cocos2d-2.0-x\cocos2dx\include" /I"..\..\..\thirdparty\cocos2d-2.0-x\cocos2dx\kazmath\include" /I"..\..\..\thirdparty\cocos2d-2.0-x\cocos2dx\platform\third_party\win32" /I"..\..\..\thirdparty\cocos2d-2.0-x\cocos2dx\platform\third_party\win32\OGLES" /I"..\..\..\thirdparty\cocos2d-2.0-x\external" /I"..\..\..\thirdparty\cocos2d-2.0-x\CocosDenshion\include" /I"..\..\..\thirdparty\cocos2d-2.0-x\scripting\lua\cocos2dx_support" /I"..\..\..\thirdparty\cocos2d-2.0-x\scripting\lua\tolua" /I"..\..\..\thirdparty\cocos2d-2.0-x\scripting\lua\lua" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp
+         AppDelegate.cpp
+         所有输出均为最新。
        ResourceCompile:
-         All outputs are up-to-date.
+         所有输出均为最新。
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         所有输出均为最新。
        Link:
-         All outputs are up-to-date.
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\游戏开发\projectmonkeygit\source\client\NewLegend\Debug.win32\NewLegend.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\游戏开发\projectmonkeygit\source\client\NewLegend\Debug.win32\\" /LIBPATH:"..\..\..\thirdparty\cocos2d-2.0-x\Debug.win32" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib liblua.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\NewLegend.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\游戏开发\projectmonkeygit\source\client\NewLegend\Debug.win32\NewLegend.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\游戏开发\projectmonkeygit\source\client\NewLegend\Debug.win32\NewLegend.win32.lib" /MACHINE:X86 Debug.win32\NewLegend.res
+         Debug.win32\NewLegend.win32.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\CCLuaEngine.obj
+         Debug.win32\Cocos2dxLuaLoader.obj
+         Debug.win32\LuaCocos2d.obj
+         Debug.win32\tolua_fix.obj
+         Debug.win32\main.obj
        Manifest:
-         All outputs are up-to-date.
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\NewLegend.win32.exe.embed.manifest" /manifest Debug.win32\NewLegend.win32.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         NewLegend.win32.vcxproj -> E:\游戏开发\projectmonkeygit\source\client\NewLegend\Debug.win32\NewLegend.win32.exe
        PostBuildEvent:
-         copy /Y ..\..\..\thirdparty\cocos2d-2.0-x\Debug.win32\*.dll F:\Demo\projectmonkeygit\source\client\NewLegend\Debug.win32\
+         copy /Y ..\..\..\thirdparty\cocos2d-2.0-x\Debug.win32\*.dll E:\游戏开发\projectmonkeygit\source\client\NewLegend\Debug.win32\
          :VCEnd
          ..\..\..\thirdparty\cocos2d-2.0-x\Debug.win32\glew32.dll
          ..\..\..\thirdparty\cocos2d-2.0-x\Debug.win32\iconv.dll
@@ -28,10 +40,10 @@
          ..\..\..\thirdparty\cocos2d-2.0-x\Debug.win32\zlib1.dll
          已复制        10 个文件。
        FinalizeBuildStatus:
-         Deleting file "Debug.win32\NewLegend.win32.unsuccessfulbuild".
-         Touching "Debug.win32\NewLegend.win32.lastbuildstate".
-     1>Done Building Project "F:\Demo\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj" (build target(s)).
+         正在删除文件“Debug.win32\NewLegend.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\NewLegend.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\游戏开发\projectmonkeygit\source\client\NewLegend\NewLegend\proj.win32\NewLegend.win32.vcxproj”(build 个目标)的操作。
 
-Build succeeded.
+生成成功。
 
-Time Elapsed 00:00:02.57
+已用时间 00:00:05.22
